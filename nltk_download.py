@@ -1,5 +1,6 @@
 import nltk
-
+nltk.download('punkt')
+nltk.download('stopwords')
 nltk_packages = ['punkt', 'stopwords', 'wordnet']
 
 for pkg in nltk_packages:
