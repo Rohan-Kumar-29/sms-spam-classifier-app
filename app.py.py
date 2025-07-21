@@ -19,8 +19,8 @@ for pkg in nltk_packages:
         nltk.download(pkg)
 
 # Load model and vectorizer
-model = pickle.load(open('model.pkl', 'rb'))
-vectorizer = pickle.load(open('vectorizer.pkl', 'rb'))
+model = joblib.load('model.pkl')
+vectorizer = joblib.load('vectorizer.pkl')
 
 ps = PorterStemmer()
 
