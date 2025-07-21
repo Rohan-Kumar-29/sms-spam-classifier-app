@@ -8,6 +8,7 @@ from nltk.stem.porter import PorterStemmer
 import re
 import joblib
 from nltk.tokenize import word_tokenize
+nltk.download('punkt_tab')
 
 # Make sure nltk resources are available
 nltk_packages = ['punkt', 'stopwords', 'wordnet']
