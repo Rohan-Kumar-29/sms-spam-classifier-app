@@ -15,5 +15,7 @@ a Multinomial Naive Bayes model.
 - 💾 Easily deployable on Streamlit Cloud
 
 Here is a demo of the app :
+
+
 <img width="611" height="275" alt="image" src="https://github.com/user-attachments/assets/d00e51dd-16c8-4b35-97fb-69b77c4e2087" />
 <img width="603" height="265" alt="image" src="https://github.com/user-attachments/assets/0659d87e-aef3-4a23-a8df-df5b2ac9cdba" />
