@@ -1,3 +1,4 @@
+import nltk_download 
 import nltk
 import streamlit as st
 import pickle
@@ -5,6 +6,8 @@ import string
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 import re
+import joblib
+from nltk.tokenize import word_tokenize
 
 # Make sure nltk resources are available
 nltk_packages = ['punkt', 'stopwords', 'wordnet']
